@@ -7,23 +7,54 @@
 
 import UIKit
 
-class SampleViewController: UIViewController {
+final class SampleViewController: UIViewController {
+
+    @IBOutlet weak var sampleTableView: UITableView!
+    private var dataSource: DataResultAdapter<SampleTableViewCell,DataResult>!
+    private var delegate: UITableViewDelegate?
+    private var viewModel = SampleViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.sampleTableView.dataSource = self.dataSource
+        self.sampleTableView.delegate = self.delegate
+        callToViewModelForUIUpdate()
     }
     
+    func callToViewModelForUIUpdate() {
+        
+        self.viewModel =  SampleViewModel()
+        self.viewModel.reloadTableViewClosure = {
+            self.updateDataAdapter()
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        }
+        
     }
-    */
+
+    func updateDataAdapter(){
+           
+        self.dataSource = DataResultAdapter(cellIdentifier: "SampleCellId", items: self.viewModel.listDataResult!.data, configureCell: { (cell, evm) in
+            cell.nameLabel.text = evm.name
+           })
+           
+           DispatchQueue.main.async {
+               self.sampleTableView.dataSource = self.dataSource
+               self.sampleTableView.delegate = self.delegate
+               self.sampleTableView.reloadData()
+           }
+       }
+
+        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowDetail" {
+            if let indexPath = self.sampleTableView.indexPathForSelectedRow {
+                let controller = segue.destination as! DetailViewController
+                controller.sampleModelDetail = self.viewModel.listDataResult?.data[indexPath.row]
+              
+            }
+        }
+    }
 
 }
+

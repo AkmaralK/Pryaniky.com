@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2D50C94E-EA35-46EB-AC38-3F2DB45DF666"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CC9903C-0E5F-4B99-A607-50B825C6E0D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "request(target:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67797ECF-B4B8-4030-8389-6019757D22D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "request(target:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "290DD4B9-CE64-4E91-9B38-496979C292F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "request(target:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "290DD4B9-CE64-4E91-9B38-496979C292F0 - a10ea84f3b95cbd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in Pryaniky_com.NetworkManager.(request in _B3832C25AC821E133CC9656181278683)&lt;A where A: Swift.Decodable&gt;(target: Pryaniky_com.APIService, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pryaniky.com"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akmaral/Documents/Pryaniky/Pryaniky.com/Pryaniky.com/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "922">
+               </Location>
+               <Location
+                  uuid = "290DD4B9-CE64-4E91-9B38-496979C292F0 - a10ea84f3b95cbd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in Pryaniky_com.NetworkManager.(request in _B3832C25AC821E133CC9656181278683)&lt;A where A: Swift.Decodable&gt;(target: Pryaniky_com.APIService, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pryaniky.com"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akmaral/Documents/Pryaniky/Pryaniky.com/Pryaniky.com/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1459">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35B66103-301D-4E3C-BE0D-5ED3298DB3CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "request(target:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47424BB0-360B-4D53-88F7-42880E2D236E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/ViewModels/SampleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "loadDataResults()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA86BFFC-9545-4F06-8FB3-CE3215BD0FFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Controllers/SampleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "SampleViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECD4E4D4-FEA1-4AAF-9E2D-36750C9EEF1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/ViewModels/DataResultAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D57B9B3-3DD5-4628-A198-1D0D88BE9634"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Controllers/SampleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "636C28F4-ABE8-41B9-A457-F8B80E88ABA3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/ViewModels/SampleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "init(networkManager:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B994CBB-3C29-4372-B740-C0634ACF8898"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/ViewModels/SampleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "listDataResult"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1B994CBB-3C29-4372-B740-C0634ACF8898 - 402ac8e5e0046eaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pryaniky_com.SampleViewModel.listDataResult.getter : Swift.Optional&lt;Pryaniky_com.SampleModel&gt;"
+                  moduleName = "Pryaniky.com"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akmaral/Documents/Pryaniky/Pryaniky.com/Pryaniky.com/ViewModels/SampleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "131">
+               </Location>
+               <Location
+                  uuid = "1B994CBB-3C29-4372-B740-C0634ACF8898 - 4db14c8c7721ad5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pryaniky_com.SampleViewModel.listDataResult.setter : Swift.Optional&lt;Pryaniky_com.SampleModel&gt;"
+                  moduleName = "Pryaniky.com"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akmaral/Documents/Pryaniky/Pryaniky.com/Pryaniky.com/ViewModels/SampleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "177">
+               </Location>
+               <Location
+                  uuid = "1B994CBB-3C29-4372-B740-C0634ACF8898 - 4aed880993d1e921"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pryaniky_com.SampleViewModel.listDataResult.modify : Swift.Optional&lt;Pryaniky_com.SampleModel&gt;"
+                  moduleName = "Pryaniky.com"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akmaral/Documents/Pryaniky/Pryaniky.com/Pryaniky.com/ViewModels/SampleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "1B994CBB-3C29-4372-B740-C0634ACF8898 - 7f0c2a527da5e53c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pryaniky_com.SampleViewModel.listDataResult.modify : Swift.Optional&lt;Pryaniky_com.SampleModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Pryaniky.com"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akmaral/Documents/Pryaniky/Pryaniky.com/Pryaniky.com/ViewModels/SampleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "10">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC2F58C7-1349-4C06-95F6-18F65EAA6DF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Controllers/SampleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "updateDataAdapter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB2C25A7-F33B-4595-A225-27AB2C1539A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Controllers/SampleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "updateDataAdapter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6774637-4E9D-4A50-AEEF-1FCCD8C9112A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Controllers/SampleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "callToViewModelForUIUpdate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB0B5FD1-513D-4BAC-AB16-43B45602A7EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pryaniky.com/Controllers/SampleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "callToViewModelForUIUpdate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

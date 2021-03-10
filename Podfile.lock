@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - Moya (~> 14.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - Moya
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+
+PODFILE CHECKSUM: 20c33d17442903373bc3439bf84d0da24056ae03
+
+COCOAPODS: 1.10.0
